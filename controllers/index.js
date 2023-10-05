@@ -1,8 +1,10 @@
 
 const estimate = require("./estimate");
-
+const getRates = require("./getRates");
 
 
 module.exports = {
-    getEstimate:estimate
+    estimate,
+    getRates
+
 }

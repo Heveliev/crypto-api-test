@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 
-app.use('/api/rates', ratesRouter);
+app.use('/api/getRates', ratesRouter);
 app.use('/api/estimate', estimateRouter);
 
 app.use((_, res) => {

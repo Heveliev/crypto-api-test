@@ -18,7 +18,6 @@ const estimate =  async (req, res) => {
     }
 
     const {fr,sc} = coinFunc(inputCurrency,outputCurrency);
-    console.log(fr,sc)
 
     axios.all(
         [
